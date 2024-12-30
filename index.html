@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishnu Reshamwala - Portfolio</title>
+  
+  <!-- Font Awesome CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-papXf6W7ruT3MSkN+1WO6acihIx+CNBGiV3QPq+HHlQ7nHh1H9gC10Zx5FKOEt2w+IBkC0dX5eiD6pHnAyg7fQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <h1>Vishnu Reshamwala</h1>
+      <div class="nav-right">
+        <ul>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="Vishnu_Reshamwala_resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <span id="theme-icon">☀️</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-left">
+        <div class="profile-image">
+          <img src="vishnu_final.jpg" alt="Vishnu Reshamwala" />
+        </div>
+      </div>
+
+      <div class="profile-content">
+        <div>
+          <h1>Vishnu Reshamwala</h1>
+          <h2>Software & Machine Learning Engineer</h2>
+        </div>
+        
+        <div class="professional-summary">
+          <p>Master's student in Computer Science specializing in machine learning and software development. Experienced in building scalable applications and implementing AI solutions using cutting-edge technologies.</p>
+        </div>
+        
+        <div class="contact-details">
+          <div class="contact-info">
+            <p>📍 Camarillo, California</p>
+            <p>📞 +1 805-506-1764</p>
+            <p>📧 vishnu.reshamwala764@myci.csuci.edu</p>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://github.com/v1shnu-star" target="_blank">
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/v1shnucs" target="_blank">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section with Title -->
+  <section id="education" class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="education-preview">
+      <div class="education-item">
+        <h3>Master of Science in Computer Science</h3>
+        <p class="school">California State University Channel Islands</p>
+        <div class="details">
+          <span class="gpa">GPA: 3.9/4.0</span>
+          <span class="date">Aug 2023 - May 2025</span>
+        </div>
+      </div>
+      
+      <div class="education-item">
+        <h3>Bachelor of Engineering in Computer Engineering</h3>
+        <p class="school">Bhagwan Mahavir College of Engineering</p>
+        <div class="details">
+          <span class="gpa">CGPA: 7.85/10</span>
+          <span class="date">Jul 2018 - May 2022</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>GPT-2 Reproduction & Optimization</h3>
+          <p>Reproduced and optimized GPT-2 (124M) architecture from scratch, implementing advanced training optimizations including mixed precision, distributed data parallelism, and Flash Attention for significant performance gains.</p>
+          <div class="tech-stack">
+            <span>PyTorch</span>
+            <span>CUDA</span>
+            <span>Flash Attention</span>
+            <span>Transformers</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>RAG AI Agent</h3>
+          <p>Built a context-aware AI agent using Retrieval-Augmented Generation (RAG) with document processing, vector storage, and LLaMa integration for intelligent query responses from local document corpus.</p>
+          <div class="tech-stack">
+            <span>LangChain</span>
+            <span>FAISS</span>
+            <span>LLaMa</span>
+            <span>HuggingFace</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Stock Forecasting App</h3>
+          <p>Created an interactive stock prediction application with 4-year forecasting capabilities, real-time data processing, and optimized caching for enhanced performance.</p>
+          <div class="tech-stack">
+            <span>TensorFlow</span>
+            <span>Keras</span>
+            <span>Streamlit</span>
+            <span>Prophet</span>
+            <span>Plotly</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Yelp Clone</h3>
+          <p>Built a full-stack Yelp clone featuring dynamic UI, efficient data handling, and successful integration of over 500,000 Yelp entries in the database.</p>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>Express</span>
+            <span>PostgreSQL</span>
+            <span>Node.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container contact-container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-item">
+          <span>📍</span>
+          <p>Camarillo, California</p>
+        </div>
+        <div class="contact-item">
+          <span>📞</span>
+          <p>+1 805-506-1764</p>
+        </div>
+        <div class="contact-item">
+          <span>📧</span>
+          <a href="mailto:vishnu.reshamwala764@myci.csuci.edu">
+            vishnu.reshamwala764@myci.csuci.edu
+          </a>
+        </div>
+        <div class="contact-item">
+          <span>🔗</span>
+          <a href="https://github.com/v1shnu-star" target="_blank">GitHub</a>
+          <span>&nbsp;•&nbsp;</span>
+          <a href="https://linkedin.com/in/v1shnucs" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Vishnu Reshamwala. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    
+    // Remove any saved theme preference to ensure dark mode by default
+    localStorage.removeItem('theme');
+    document.body.classList.remove('light-mode');
+    themeIcon.textContent = '☀️';
+
+    // Toggle theme
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('light-mode');
+      
+      if (document.body.classList.contains('light-mode')) {
+        themeIcon.textContent = '🌙';
+        localStorage.setItem('theme', 'light');
+      } else {
+        themeIcon.textContent = '☀️';
+        localStorage.removeItem('theme');
+      }
+    });
+  </script>
+
+  <script>
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in');
+          observer.unobserve(entry.target); // Stop observing once animated
+        }
+      });
+    }, observerOptions);
+
+    // Observe all animatable elements
+    document.querySelectorAll('.education-item, .project-card, .section-title').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
