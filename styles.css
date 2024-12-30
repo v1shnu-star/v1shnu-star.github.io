@@ -85,7 +85,7 @@ header ul li a:hover {
 /* Sections */
 .container {
     max-width: 1200px;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     padding: 0;
 }
@@ -750,7 +750,7 @@ p {
 /* Container standardization */
 .container {
   max-width: 1200px;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   padding: 0;
 }
@@ -977,6 +977,78 @@ header nav.container {
   body {
     padding-top: max(60px, env(safe-area-inset-top));
     padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Mobile Navigation Styles */
+.mobile-nav-container {
+  display: none;
+}
+
+.hamburger-menu {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--primary-color);
+  z-index: 999;
+}
+
+.mobile-menu.active {
+  display: block;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.mobile-menu li {
+  padding: 0.75rem 2rem;
+  text-align: center;
+}
+
+.mobile-menu a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  /* Education and Projects equal margins */
+  .education-preview,
+  .project-grid {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .education-item,
+  .project-card {
+    width: 100%;
   }
 }
   
